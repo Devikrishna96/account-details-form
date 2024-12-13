@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Details</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Account Details</h2>
+        <form id="accountForm">
+            <input type="text" id="name" name="name" placeholder="Name" required><br/>
+    
+            <input type="email" id="email" name="email" placeholder="Email" required><br/>
+    
+            <input type="text" id="phone" name="phone" placeholder="Phone" required><br/>
+    
+            <input type="number" id="age" name="age" placeholder="Age" required><br/>
+    
+            <input type="text" id="gender" name="gender" placeholder="Gender" required><br/>
+    
+            <textarea id="address" name="address" maxlength="50" placeholder="Address"></textarea><br/>
+            <div class="error" id="error" ></div>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>   <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+
+    <script src="validation.js"></script>
+    </body>
+    </html>

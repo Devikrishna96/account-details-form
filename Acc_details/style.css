@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.form-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+.error {
+    color: red;
+    font-size: 12px;
+}
